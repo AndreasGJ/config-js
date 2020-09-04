@@ -1,5 +1,6 @@
-const tellMeTheMeaning = () => {
-	console.log("Hello world");
-};
+import {setup} from './data';
+import config from './config';
 
-export default tellMeTheMeaning;
+export {setup};
+
+export default config;
