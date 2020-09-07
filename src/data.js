@@ -5,7 +5,7 @@ let configData = {};
 export const setup = (params) => {
     let configs = {};
 
-    if(typeof params === "object") {
+    if(params && typeof params === "object") {
         configs = params;
     }
 
